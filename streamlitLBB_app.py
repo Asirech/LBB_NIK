@@ -7,7 +7,7 @@ import streamlit as st
 st.set_page_config(layout='wide')
 
 # --- READ DATA ---
-customer_pkl = pd.read_pickle('C:/Users/62812/Documents/Algoritma/DSS-NIK/LBB NIK/customer_dash.pkl')
+customer_pkl = pd.read_pickle('customer_dash.pkl')
 
  
 # --- ROW 1 ---
